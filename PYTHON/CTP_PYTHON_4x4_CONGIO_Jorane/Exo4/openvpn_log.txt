@@ -1,0 +1,1000 @@
+Jan 20 18:49:50 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 20 18:49:50 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 20 18:49:50 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 20 18:49:50 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 20 18:49:50 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 20 18:49:50 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 20 18:49:50 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 20 18:49:50 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 20 18:49:50 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 20 18:49:50 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 20 18:49:50 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 20 18:49:50 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 20 18:49:50 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 20 18:49:50 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 20 18:49:48 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 20 18:49:48 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 20 18:49:48 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 20 18:49:48 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 20 18:49:48 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 20 18:49:47 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 20 18:49:47 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 20 18:49:47 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 20 18:49:47 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=b6f166b2 fe5fad78
+Jan 20 18:49:47 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 20 18:49:47 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 20 18:49:47 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 20 18:49:47 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 20 18:49:47 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 20 18:49:47 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 20 18:49:47 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 20 18:49:47 splunk ovpn-client[1976]: LZO compression initialized
+Jan 20 18:49:47 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 20 18:49:47 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 20 18:49:47 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 20 18:49:47 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 20 18:49:47 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 20 18:49:47 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=b6f166b2 fe5fad78
+Jan 20 18:49:47 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 20 18:49:47 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 20 18:49:47 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 20 18:49:47 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 20 18:49:47 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 20 18:49:47 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 20 18:49:47 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 20 18:49:47 splunk ovpn-client[1976]: LZO compression initialized
+Jan 20 18:49:47 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 20 18:49:47 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 20 18:49:45 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 20 18:49:45 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 20 18:49:45 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 20 18:49:45 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 20 18:49:45 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 20 18:49:45 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 20 18:49:45 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 20 18:49:45 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 22:19:05 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 22:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 22:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 22:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 22:19:05 splunk ovpn-client[1976]: TLS: soft reset sec=0 bytes=2907530/0 pkts=9584/0
+Jan 19 22:19:05 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 22:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 22:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 22:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 22:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 22:19:05 splunk ovpn-client[1976]: TLS: soft reset sec=0 bytes=2907530/0 pkts=9584/0
+Jan 19 21:19:05 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 21:19:05 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 21:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 21:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 21:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 21:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 21:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 21:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 21:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 20:19:06 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 20:19:06 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 20:19:06 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 20:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 20:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 20:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 20:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 20:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 20:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 20:19:05 splunk ovpn-client[1976]: TLS: soft reset sec=0 bytes=2938740/0 pkts=9661/0
+Jan 19 20:19:05 splunk ovpn-client[1976]: TLS: soft reset sec=0 bytes=2938740/0 pkts=9661/0
+Jan 19 19:19:05 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 19:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 19:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 19:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 19:19:05 splunk ovpn-client[1976]: TLS: soft reset sec=-1 bytes=3685223/0 pkts=10256/0
+Jan 19 19:19:05 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 19:19:05 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 19:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 19:19:05 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 19:19:05 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 19:19:05 splunk ovpn-client[1976]: TLS: soft reset sec=-1 bytes=3685223/0 pkts=10256/0
+Jan 19 18:19:06 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:19:06 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:19:06 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:19:06 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:19:06 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:19:06 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:19:06 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:19:06 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:19:06 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:19:06 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:19:06 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:19:06 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:19:06 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:19:06 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:19:04 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:19:04 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:19:04 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:19:04 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:19:04 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:19:04 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=d14659db 1fdffde3
+Jan 19 18:19:04 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:19:04 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:19:04 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:19:04 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:19:04 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:19:04 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:19:04 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:19:04 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:19:04 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:19:04 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:19:04 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:19:04 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:19:04 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:19:04 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:19:04 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=d14659db 1fdffde3
+Jan 19 18:19:04 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:19:04 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:19:04 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:19:04 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:19:04 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:19:04 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:19:04 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:19:04 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:19:04 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:19:04 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:19:02 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:19:02 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:19:02 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:19:02 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:19:02 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:19:02 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:19:02 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:19:02 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:17:06 graylog2 Jan 19 18:17:06 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:17:04 graylog2 Jan 19 18:17:04 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=53574776 89ef36eb
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 18:17:04 graylog2 Jan 19 18:17:03 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:17:02 graylog2 Jan 19 18:17:01 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 18:17:02 graylog2 Jan 19 18:17:01 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:17:02 graylog2 Jan 19 18:17:01 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 18:17:02 graylog2 Jan 19 18:17:01 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:15:05 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:15:05 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:15:05 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:15:05 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:15:05 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:15:05 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:15:05 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:15:05 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:15:05 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:15:05 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:15:05 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:15:05 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:15:05 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:15:05 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:15:03 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:15:03 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:15:03 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:15:03 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:15:03 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:15:03 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:15:03 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:15:03 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:15:03 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:15:03 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:15:03 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:15:02 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=9cec8b4f 0cd33125
+Jan 19 18:15:02 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:15:02 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:15:02 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:15:02 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:15:02 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:15:02 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:15:02 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:15:02 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:15:02 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:15:02 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:15:02 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=9cec8b4f 0cd33125
+Jan 19 18:15:02 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:15:02 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:15:02 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:15:02 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:15:02 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:15:02 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:15:02 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:15:02 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:15:02 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:15:02 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:15:00 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:15:00 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:15:00 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:15:00 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:15:00 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:15:00 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:15:00 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:15:00 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:13:03 graylog2 Jan 19 18:13:02 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:13:01 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:13:01 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:13:01 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:13:01 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:13:01 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:13:01 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=e042b126 dece9c9d
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 18:13:00 graylog2 Jan 19 18:13:00 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:12:58 graylog2 Jan 19 18:12:58 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 18:12:58 graylog2 Jan 19 18:12:58 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:12:58 graylog2 Jan 19 18:12:58 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 18:12:58 graylog2 Jan 19 18:12:58 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:11:03 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:11:03 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:11:03 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:11:03 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:11:03 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:11:03 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:11:03 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:11:03 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:11:03 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:11:03 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:11:03 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:11:03 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:11:03 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:11:03 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:11:01 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:11:01 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:11:01 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:11:01 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:11:01 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:11:01 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=daeaeb42 27e287b6
+Jan 19 18:11:01 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:11:01 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:11:01 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:11:01 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:11:01 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:11:01 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:11:01 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:11:01 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:11:01 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:11:01 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:11:01 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:11:01 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:11:01 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:11:01 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:11:01 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=daeaeb42 27e287b6
+Jan 19 18:11:01 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:11:01 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:11:01 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:11:01 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:11:01 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:11:01 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:11:01 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:11:01 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:11:01 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:11:01 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:10:59 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:10:59 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:10:59 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:10:59 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:10:59 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:10:59 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:10:59 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:10:59 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:09:03 graylog2 Jan 19 18:09:02 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=b31bde3a 26120505
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 18:09:01 graylog2 Jan 19 18:09:00 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:08:59 graylog2 Jan 19 18:08:58 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 18:08:59 graylog2 Jan 19 18:08:58 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:08:59 graylog2 Jan 19 18:08:58 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 18:08:59 graylog2 Jan 19 18:08:58 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:07:10 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:07:10 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:07:10 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:07:10 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:07:10 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:07:10 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:07:10 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:07:10 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:07:10 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:07:10 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:07:10 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:07:10 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:07:10 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:07:10 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:07:08 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:07:08 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:07:08 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:07:08 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:07:08 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:07:07 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:07:07 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:07:07 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:07:07 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=d0f7c7f7 626b7c4d
+Jan 19 18:07:07 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:07:07 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:07:07 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:07:07 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:07:07 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:07:07 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:07:07 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:07:07 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:07:07 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:07:07 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:07:07 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:07:07 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:07:07 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:07:07 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=d0f7c7f7 626b7c4d
+Jan 19 18:07:07 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:07:07 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:07:07 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:07:07 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:07:07 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:07:07 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:07:07 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:07:07 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:07:07 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:07:07 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:07:05 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:07:05 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:07:05 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:07:05 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:07:05 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:07:05 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:07:05 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:07:05 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:05:12 graylog2 Jan 19 18:05:11 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:05:10 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:05:10 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:05:10 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:05:10 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:05:10 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:05:10 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=dc87add1 8fde8f98
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 18:05:09 graylog2 Jan 19 18:05:09 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:05:07 graylog2 Jan 19 18:05:07 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 18:05:07 graylog2 Jan 19 18:05:07 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:05:07 graylog2 Jan 19 18:05:07 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 18:05:07 graylog2 Jan 19 18:05:07 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:03:14 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:03:14 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:03:14 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:03:14 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:03:14 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:03:14 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:03:14 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 18:03:14 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:03:14 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 18:03:14 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:03:14 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:03:14 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:03:13 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:03:13 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:03:11 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:03:11 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:03:11 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:03:11 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:03:11 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:03:11 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=161fc524 34e16755
+Jan 19 18:03:11 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:03:11 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:03:11 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:03:11 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:03:11 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:03:11 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:03:11 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:03:11 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:03:11 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:03:11 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:03:11 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:03:11 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:03:11 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:03:11 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:03:11 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=161fc524 34e16755
+Jan 19 18:03:11 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:03:11 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 18:03:11 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:03:11 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:03:11 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:03:11 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:03:11 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:03:11 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 18:03:11 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 18:03:11 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:03:09 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:03:09 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:03:09 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:03:09 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:03:09 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 18:03:09 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:03:09 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 18:03:09 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 18:01:12 graylog2 Jan 19 18:01:11 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=99b23a97 7e174914
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 18:01:10 graylog2 Jan 19 18:01:09 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 18:01:08 graylog2 Jan 19 18:01:07 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 18:01:08 graylog2 Jan 19 18:01:07 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 18:01:08 graylog2 Jan 19 18:01:07 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 18:01:08 graylog2 Jan 19 18:01:07 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:59:18 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:59:18 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:59:18 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:59:18 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:59:18 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:59:18 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:59:18 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:59:18 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:59:18 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:59:18 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:59:18 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:59:18 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:59:18 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:59:18 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:59:16 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:59:16 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:59:16 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:59:16 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:59:16 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:59:15 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:59:15 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:59:15 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:59:15 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=0759c4ef 205b8e6c
+Jan 19 17:59:15 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:59:15 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:59:15 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:59:15 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:59:15 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:59:15 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:59:15 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:59:15 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:59:15 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:59:15 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:59:15 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:59:15 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:59:15 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:59:15 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=0759c4ef 205b8e6c
+Jan 19 17:59:15 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:59:15 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:59:15 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:59:15 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:59:15 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:59:15 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:59:15 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:59:15 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:59:15 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:59:15 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:59:13 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:59:13 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:59:13 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:59:13 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:59:13 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:59:13 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:59:13 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:59:13 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:57:16 graylog2 Jan 19 17:57:15 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:57:14 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:57:14 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:57:14 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:57:14 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:57:14 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:57:14 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:57:13 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:57:13 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:57:13 graylog2 Jan 19 17:57:13 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=fc3f41f5 b57bffae
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 17:57:13 graylog2 Jan 19 17:57:12 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:57:11 graylog2 Jan 19 17:57:10 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 17:57:11 graylog2 Jan 19 17:57:10 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:57:11 graylog2 Jan 19 17:57:10 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 17:57:11 graylog2 Jan 19 17:57:10 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:55:15 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:55:15 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:55:15 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:55:15 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:55:15 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:55:15 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:55:15 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:55:15 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:55:15 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:55:15 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:55:15 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:55:15 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:55:15 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:55:15 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:55:12 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:55:12 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:55:12 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:55:12 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:55:12 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:55:12 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=657698a3 6c8028ca
+Jan 19 17:55:12 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:55:12 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:55:12 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:55:12 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:55:12 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:55:12 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:55:12 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:55:12 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:55:12 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:55:12 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:55:12 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:55:12 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:55:12 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:55:12 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:55:12 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=657698a3 6c8028ca
+Jan 19 17:55:12 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:55:12 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:55:12 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:55:12 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:55:12 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:55:12 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:55:12 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:55:12 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:55:12 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:55:12 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:55:10 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:55:10 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:55:10 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:55:10 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:55:10 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:55:10 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:55:10 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:55:10 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:53:12 graylog2 Jan 19 17:53:11 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=48460244 d08689a7
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 17:53:10 graylog2 Jan 19 17:53:09 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:53:08 graylog2 Jan 19 17:53:07 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 17:53:08 graylog2 Jan 19 17:53:07 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:53:08 graylog2 Jan 19 17:53:07 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 17:53:08 graylog2 Jan 19 17:53:07 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:51:14 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:51:14 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:51:14 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:51:14 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:51:14 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:51:14 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:51:14 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:51:14 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:51:14 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:51:14 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:51:14 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:51:14 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:51:14 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:51:14 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:51:12 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:51:12 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:51:12 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:51:12 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:51:12 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:51:11 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:51:11 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:51:11 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:51:11 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=3078d728 134edf1b
+Jan 19 17:51:11 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:51:11 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:51:11 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:51:11 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:51:11 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:51:11 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:51:11 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:51:11 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:51:11 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:51:11 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:51:11 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:51:11 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:51:11 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:51:11 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=3078d728 134edf1b
+Jan 19 17:51:11 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:51:11 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:51:11 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:51:11 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:51:11 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:51:11 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:51:11 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:51:11 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:51:11 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:51:11 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:51:09 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:51:09 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:51:09 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:51:09 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:51:09 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:51:09 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:51:09 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:51:09 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:49:13 graylog2 Jan 19 17:49:12 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 17:49:13 graylog2 Jan 19 17:49:12 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:49:13 graylog2 Jan 19 17:49:12 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 17:49:13 graylog2 Jan 19 17:49:12 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:49:13 graylog2 Jan 19 17:49:12 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:47:14 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:47:14 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:47:14 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:47:14 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:47:14 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:47:14 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:47:14 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:47:14 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:47:14 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:47:14 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:47:14 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:47:14 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:47:14 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:47:14 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:47:14 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:47:14 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:47:14 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:47:14 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:47:14 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:47:14 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=987d6d2e 87bb0ee1
+Jan 19 17:47:14 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:47:14 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:47:14 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:47:14 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:47:14 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:47:14 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:47:14 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:47:14 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:47:14 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:47:14 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:47:12 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:47:12 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:47:12 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:47:12 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:47:12 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:47:12 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:47:12 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:47:12 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:45:14 graylog2 Jan 19 17:45:13 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:45:12 graylog2 Jan 19 17:45:11 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:45:12 graylog2 Jan 19 17:45:11 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:45:12 graylog2 Jan 19 17:45:11 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:45:12 graylog2 Jan 19 17:45:11 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:45:12 graylog2 Jan 19 17:45:11 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:45:12 graylog2 Jan 19 17:45:11 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=f9e64314 b7a001d1
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: UDPv4 link local: [undef]
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: LZO compression initialized
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: Re-using SSL/TLS context
+Jan 19 17:45:12 graylog2 Jan 19 17:45:10 debian ovpn-client[2087]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:45:10 graylog2 Jan 19 17:45:08 debian ovpn-client[2087]: Restart pause, 2 second(s)
+Jan 19 17:45:10 graylog2 Jan 19 17:45:08 debian ovpn-client[2087]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:45:10 graylog2 Jan 19 17:45:08 debian ovpn-client[2087]: TCP/UDP: Closing socket
+Jan 19 17:45:10 graylog2 Jan 19 17:45:08 debian ovpn-client[2087]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:43:18 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:43:18 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:43:18 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:43:18 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:43:18 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:43:18 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:43:18 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:43:18 splunk ovpn-client[1976]: Initialization Sequence Completed
+Jan 19 17:43:18 splunk ovpn-client[1976]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:43:18 splunk ovpn-client[1976]: OPTIONS IMPORT: route options modified
+Jan 19 17:43:18 splunk ovpn-client[1976]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:43:18 splunk ovpn-client[1976]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:43:18 splunk ovpn-client[1976]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:43:18 splunk ovpn-client[1976]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:43:16 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:43:16 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:43:16 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:43:16 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:43:16 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:43:16 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=6de216b4 402a6ff1
+Jan 19 17:43:16 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:43:16 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:43:16 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:43:16 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:43:16 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:43:16 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:43:16 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:43:16 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:43:16 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:43:16 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:43:16 splunk ovpn-client[1976]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:43:16 splunk ovpn-client[1976]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:43:16 splunk ovpn-client[1976]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:43:16 splunk ovpn-client[1976]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:43:16 splunk ovpn-client[1976]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=6de216b4 402a6ff1
+Jan 19 17:43:16 splunk ovpn-client[1976]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:43:16 splunk ovpn-client[1976]: UDPv4 link local: [undef]
+Jan 19 17:43:16 splunk ovpn-client[1976]: Expected Remote Options hash (VER=V4): '14168603'
+Jan 19 17:43:16 splunk ovpn-client[1976]: Local Options hash (VER=V4): '504e774e'
+Jan 19 17:43:16 splunk ovpn-client[1976]: Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:135 ET:0 EL:0 AF:3/1 ]
+Jan 19 17:43:16 splunk ovpn-client[1976]: Socket Buffers: R=[229376->131072] S=[229376->131072]
+Jan 19 17:43:16 splunk ovpn-client[1976]: Control Channel MTU parms [ L:1542 D:166 EF:66 EB:0 ET:0 EL:0 ]
+Jan 19 17:43:16 splunk ovpn-client[1976]: LZO compression initialized
+Jan 19 17:43:16 splunk ovpn-client[1976]: Re-using SSL/TLS context
+Jan 19 17:43:16 splunk ovpn-client[1976]: NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Jan 19 17:43:14 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:43:14 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:43:14 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:43:14 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:43:14 splunk ovpn-client[1976]: Restart pause, 2 second(s)
+Jan 19 17:43:14 splunk ovpn-client[1976]: SIGUSR1[soft,ping-restart] received, process restarting
+Jan 19 17:43:14 splunk ovpn-client[1976]: TCP/UDP: Closing socket
+Jan 19 17:43:14 splunk ovpn-client[1976]: [OpenVpn_dedibox2] Inactivity timeout (--ping-restart), restarting
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: Initialization Sequence Completed
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: Preserving previous TUN/TAP instance: tun0
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: OPTIONS IMPORT: route options modified
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.2.1,topology net30,ping 10,ping-restart 120,ifconfig 172.16.2.2 172.16.2.1'
+Jan 19 17:41:17 graylog2 Jan 19 17:41:16 debian ovpn-client[2087]: SENT CONTROL [OpenVpn_dedibox2]: 'PUSH_REQUEST' (status=1)
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: [OpenVpn_dedibox2] Peer Connection Initiated with [AF_INET]62.210.238.3:1194
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: VERIFY OK: depth=0, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=OpenVpn_dedibox2/emailAddress=mail@mail.com
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: VERIFY OK: nsCertType=SERVER
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: VERIFY OK: depth=1, /C=FR/ST=IDF/L=Dedibox2/O=Online/CN=Online_CA/emailAddress=mail@mail.com
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: TLS: Initial packet from [AF_INET]62.210.238.3:1194, sid=a5dbe6d1 7b41dfee
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: UDPv4 link remote: [AF_INET]62.210.238.3:1194
+Jan 19 17:41:15 graylog2 Jan 19 17:41:13 debian ovpn-client[2087]: UDPv4 link local: [undef]
