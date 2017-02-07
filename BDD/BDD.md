@@ -194,3 +194,25 @@ su - postgres
 psql nomtable
 ```
 
+## NoSQL
+Pas une base de donnée relationnelle
+
+Bonne perf
+On peut faire du clé/valeur
+orienté colonnes : ressemble à du relationnel 
+orientées document : stocké sous forme de données noeud et de relation
+
+Pas forcément plus performant que du relationnel, dépend des cas.
+SQL : uniquement vertical scaling (on peut juste augmenter la capacité du serveur qui fait tourner la base)
+Sympa : on peut faire de l'horizontal scaling : disperser la BDD entre plusieurs serveurs. On distribue le contenu ET le traitement. Presque obligatoire quand on arrive sur des bases géantes.
+
+Problème : pas de vérif d'intégrité, pas de transactions répides sur des objets de faible valeur et nombreux.
+
+A priori : ne pas stocker des trucs trop importants dessus. Difficile à organiser correctement.
+
+## Analyse de log
+
+Penser à tester graylog : gratuit et largement suffisant pour des usage de base.
+
+## Outil de test de charge NoSQL
+https://github.com/brianfrankcooper/YCSB/wiki
