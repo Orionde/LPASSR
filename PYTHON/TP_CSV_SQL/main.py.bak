@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
+import unicodedata
+import csv
+
+def normalize(name):
+    name = name.lower()
+    ascii_byte = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore' )
+    uni = ascii_byte.decode("utf-8")
+    uni = uni.replace('-', '')
+    uni = uni.replace(' ', '')
+    return uni
+
+def generate_login(n1, p, n2=None):
+    n1 = normalize(n1)
+    p = normalize(p)
+    if n2 is not None:
+        n2 = normalize(n2)
+        return p[0] + n1[0:6] + n2[0]
+    return p[0] + n1[0:6]
+
+# Programme principal
+if __name__ == '__main__':
+    csv_file = open('test.csv', 'r')
+    reader = csv.reader(csv_file)
+    for raw in reader:
+        login = generate_login(raw[0], raw[2])
+        print(login)

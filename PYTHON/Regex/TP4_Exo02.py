@@ -63,7 +63,7 @@ if __name__ == '__main__':
 		('^[^a]+$', '3.a : lignes qui ne contiennent pas de a'), \
 		('^[^ ]+$', '3.b : lignes qui ne contiennent pas d\'espaces'), \
 		('^[^\d]*$', '3.c : lignes qui ne contiennent pas de chiffres decimaux'), \
-		('^(\d\d ){4}', '4 : lignes qui debutent par un numero de telephone au format 00 00 00 00 00'), \
+		('^(\d\d ){4}\d', '4 : lignes qui debutent par un numero de telephone au format 00 00 00 00 00'), \
 		('^(\d\d[ \.-]){4}', '5 :  idem 4 mais on peut avoir . ou - a la place des espaces'), \
 		('^(\(0\)|0)\d(( |-|.)\d\d){4}', '6 : idem 5 mais le 0 peut être entoure de parentheses'), \
 		('(0|\(0\))(( |.| |-)\d\d\d){3}$', '7 : terminent par un tel au format 0 123 456 789, espaces, - ou . et (0)')
