@@ -27,4 +27,4 @@ def sendmail(email, login, passwd):
     server.login(fromaddr, "Azertyuiop")
     text = msg.as_string()
     server.sendmail(fromaddr, toaddr, text)
-server.quit()
+    server.quit()

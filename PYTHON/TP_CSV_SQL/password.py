@@ -20,4 +20,4 @@ class Password:
         passwd_sha1 = hashlib.sha1(passwd.encode())
         passwd_hash = passwd_sha1.hexdigest()
 
-return passwd_hash
+        return passwd_hash

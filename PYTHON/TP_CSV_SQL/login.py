@@ -46,4 +46,4 @@ def get_logins(filename):
     except IndexError:
         pass  # For empty lines
 
-return logins
+    return logins
