@@ -16,21 +16,27 @@ from sqlalchemy.orm import sessionmaker
 Base = declarative_base()
   
 class OrmManager():
+    """
+    ORM
+    Links with sqlite database, use sqlalchemy
+    """
     def __init__(self):
-        ## Create db and tables
+        # Create db and tables
         self.engine = create_engine('sqlite:///office.db')
         Base.metadata.create_all(self.engine)
     
-        ## Use engine
+        # Use engine
         Base.metadata.bind = self.engine
 
-        ## Create session
+        # Create session
         DBSession = sessionmaker(bind=self.engine)
         self.session = DBSession()
 
-        ## Create functions / Departments
+        # functions / Departments
         departments = ['Info', 'Direction', 'DSI', 'Comptabilité', 'Helpdesk']
         functions = ['ITWO', 'RH', 'Directeur', 'Assistant', 'Assistante', 'Responsable', 'Comptable', 'Informatique', 'stagiaire']
+
+        # Create functions and departments
         try:
             self.create_departments(departments)
             self.create_functions(functions)
@@ -39,16 +45,22 @@ class OrmManager():
         except sqlalchemy.exc.InvalidRequestError:
             self.session.rollback()
 
-################################################################################################
     def login_already_exists(self, login):
+        """
+        Check if login is already present in database
+        In : login (str)
+        """
         try:
             login = self.session.query(self._User).filter(self._User.login == login).one()
         except sqlalchemy.orm.exc.NoResultFound:
             return False
         return True
     
-################################################################################################
     def get_department_from_name(self, name):
+        """
+        Return department object from name
+        In : name of department(string)
+        """
         try:
             dep = self.session.query(self._Department).filter(self._Department.name == name).one()
             return dep
@@ -58,6 +70,10 @@ class OrmManager():
             return None
 
     def get_function_from_name(self, name):
+        """
+        Return function object from name
+        In : name of function (string)
+        """
         try:
             func = self.session.query(self._Function).filter(self._Function.name == name).one()
             return func
@@ -66,8 +82,11 @@ class OrmManager():
             print("Function " +name+" was not found in base ! Please add it using command office add function "+name)
             return None
 
-################################################################################################
     def create_departments(self, departments):
+        """
+        Create departments
+        In : list of departments
+        """
         try:
             for dep in departments:
                 tmp = self._Department(name = dep)
@@ -77,6 +96,10 @@ class OrmManager():
             self.session.rollback()
 
     def create_functions(self, functions):
+        """
+        Create functions
+        In : list of functions
+        """
         try:
             for func in functions:
                 tmp = self._Function(name = func)
@@ -85,12 +108,16 @@ class OrmManager():
         except:
             self.session.rollback()
 
-################################################################################################
     def create_user(self, login, passwd, surname, name, birthdate, function, department, email, oldname=None, mobile=None, phone=None):
-        
+        """
+        Create users
+        In : all user infos (string)
+        """
+       
+        # Check if department and function exists
         dep = self.get_department_from_name(department)
         func = self.get_function_from_name(function)
-        #print(self, login, passwd, surname, name, birthdate, function, department, email, oldname, mobile, phone)
+
         if dep is not None and func is not None:
             try:
                 user = self._User(login=login, passwd=passwd, surname=surname, name = name, birthdate=birthdate, email=email, function=func.name, department=dep.name, mobile=mobile, phone=phone, oldname=oldname)
@@ -99,13 +126,18 @@ class OrmManager():
                 print("User "+ login+" successfully added !")
             except sqlalchemy.exc.IntegrityError as e:
                 print("Something went wrong when adding this user in database.")
-                #print(str(e))
+                print(str(e))
                 self.session.rollback()
         else:
             print("User "+login+" wasn't created")
             self.session.rollback()
  
     def delete_user(self, login):
+        """
+        Delete an user from login
+        In : login (string)
+        """
+
         try:
             user = self.session.query(self._User).filter(self._User.login == login).one()
             self.session.delete(user)
@@ -116,6 +148,10 @@ class OrmManager():
             print("Username " +login+" was not found in base !" )
 
     def change_group(self, login, group):
+        """
+        Modify group of an user
+        In : login (string)
+        """
         try:
             user = self.session.query(self._User).filter(self._User.login == login).one()
             user.department = group
@@ -126,6 +162,10 @@ class OrmManager():
             print("Username " +login+" was not found in base !" )
 
     def change_surname(self, login, surname):
+        """
+        Change surname of an user
+        In : surname (string)
+        """
         try:
             user = self.session.query(self._User).filter(self._User.login == login).one()
             user.surname = surname
@@ -135,19 +175,24 @@ class OrmManager():
             self.session.rollback()
             print("Username " +login+" was not found in base !" )
 
-
-
-
-################################################################################################
     class _Function(Base):
+        """
+        Used in order to create table functions
+        """
         __tablename__ = 'functions'
         name = Column(String(64), nullable=False, primary_key=True)
 
     class _Department(Base):
+        """
+        Used in order to create table departments
+        """
         __tablename__ = 'department'
         name = Column(String(64), nullable=False, primary_key=True)
 
     class _User(Base):
+        """
+        Used in order to create table users
+        """
         __tablename__ = 'users'
         login = Column(String(64), nullable=False, primary_key=True)
         passwd = Column(String(64), nullable=False)

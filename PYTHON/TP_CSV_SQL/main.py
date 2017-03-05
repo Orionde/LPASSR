@@ -10,54 +10,66 @@ import login
 import password
 import sendmail
 
-"""NOM,NOM de jeune fille,Prénom,Date de naissance,Fonction,Département,Courriel,Téléphone,Mobile"""
-"""
-0 : Nom
-1 : Nom jeune fille
-2 : prenom
-3 : naissance
-4 : fonction
-5 : department
-6 : email
-7 : tel
-8 : mobile
-
-"""
 def import_csv(bdd):
-    logins = login.get_logins(args.import_csv[0])
+    """
+    In : database (OrmManager object)
+    Add new users in database, generate login/password and then them by email
+    """
+    logins = login.get_logins(args.import_csv[0]) #generate logins from surname/name
+
     csv_file = open(args.import_csv[0], 'r')
     reader = csv.reader(csv_file)
-    i = 0
+
+    i = 0 # Indice of logins list
     for cs in reader:
         if i == 0:
             pass # Pass first line of file
         else:
-            if not db.login_already_exists(logins[i]):
+            if not db.login_already_exists(logins[i]): # Check if username already exists
                 passwd = password.Password(10) # Create password for this user
-                sendmail.sendmail(cs[6], logins[i], passwd.passwd)
 
                 try:
+                    # Create user
                     db.create_user(logins[i], passwd.hash, cs[0], cs[2], cs[3], cs[4], cs[5], cs[6], cs[1], cs[8], cs[7])
+                    sendmail.sendmail(cs[6], logins[i], passwd.passwd) # Send email, take some time (~2sec)
                 except IndexError:
                     print("Empty line")
-                    pass # For empty lines
+                    pass # For empty lines in csv file
             else:
-                print("User " + logins[i] + " already exists")
+                print("User " + logins[i] + " already exists !")
         i += 1
 
 def delete_users(db, logins):
+    """
+    In : database (OrmManager object), logins of users (list)
+    Suppress all users from their logins
+    """
     for lo in logins:
         db.delete_user(lo)
 
 def change_group(db, login, new_group):
+    """
+    Change department of an user from login
+    In : database (OrmManagerobject), login(str), new_group(str)
+    """
     db.change_group(login, new_group)
 
 def change_surname(db, login, new_name):
+    """
+    Change surname of an user from login
+    In : database (OrmManager object), login(str), new_name(str)
+    """
     db.change_surname(login, new_name)
 
-## Main program
 if __name__ == '__main__':
-    db = database.OrmManager()
+    """
+    Main program.
+    Execute function from command line with plugin argparser
+    """
+
+    db = database.OrmManager() # Creating databaseORM object
+
+    # Execute from command line
     parser = argparse.ArgumentParser(description='A remplir', prog='Office')
     parser.add_argument('-i','--import_csv', metavar='fichiercsv', nargs='+',
                     help='Import csv file in database. Usage: office -i file.csv')
@@ -73,6 +85,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    # Choose the good function
     if args.import_csv:
         import_csv(db)
     elif args.delete:
