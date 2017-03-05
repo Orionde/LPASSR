@@ -4,6 +4,7 @@
 import unicodedata
 import csv
 
+
 def normalize(name):
     """
     Set name in lovercase, remove '-' and ' '
@@ -13,6 +14,7 @@ def normalize(name):
     name = name.replace('-', '')
     name = name.replace(' ', '')
     return name
+
 
 def generate_login(n1, p, n2=None):
     """
@@ -26,6 +28,7 @@ def generate_login(n1, p, n2=None):
         n2 = normalize(n2)
         return p[0] + n1[0:6] + n2[0]
     return p[0] + n1[0:6]
+
 
 def get_logins(filename):
     """
@@ -41,6 +44,6 @@ def get_logins(filename):
             logins.append(login)
 
     except IndexError:
-        pass # For empty lines
+        pass  # For empty lines
 
-    return logins
+return logins
