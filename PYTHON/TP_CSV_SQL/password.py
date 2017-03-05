@@ -10,7 +10,7 @@ class Password:
 
     def _generate(self, size):
         element = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\
-                abcdefghijklmnopqrstuvwxyz0123456789+-*/$%&.:?!"
+            abcdefghijklmnopqrstuvwxyz0123456789+-*/$%&.:?!"
         passwd = ""
         for i in range(size):
             passwd = passwd + element[random.randint(0, len(element)-1)]
