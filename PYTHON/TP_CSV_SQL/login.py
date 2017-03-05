@@ -4,8 +4,6 @@
 import unicodedata
 import csv
 
-import consult-db
-
 def normalize(name):
     name = name.lower()
     #ascii_byte = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore' )
@@ -22,13 +20,17 @@ def generate_login(n1, p, n2=None):
         return p[0] + n1[0:6] + n2[0]
     return p[0] + n1[0:6]
 
-def generate_user_from_csv():
-    csv_file = open('test.csv', 'r')
+def get_logins(filename):
+    csv_file = open(filename, 'r')
     reader = csv.reader(csv_file)
     logins = list()
-    for raw in reader:
-        login = generate_login(raw[0], raw[2])
-        logins.append(login)
-        #print(login)
+    try:
+        for raw in reader:
+            login = generate_login(raw[0], raw[2])
+            logins.append(login)
+
+    except IndexError:
+        pass # For empty lines
 
     return logins
+
