@@ -14,7 +14,8 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
-  
+
+
 class OrmManager():
     """
     ORM
@@ -24,7 +25,7 @@ class OrmManager():
         # Create db and tables
         self.engine = create_engine('sqlite:///office.db')
         Base.metadata.create_all(self.engine)
-    
+
         # Use engine
         Base.metadata.bind = self.engine
 
@@ -34,7 +35,8 @@ class OrmManager():
 
         # functions / Departments
         departments = ['Info', 'Direction', 'DSI', 'Comptabilité', 'Helpdesk']
-        functions = ['ITWO', 'RH', 'Directeur', 'Assistant', 'Assistante', 'Responsable', 'Comptable', 'Informatique', 'stagiaire']
+        functions = ['ITWO', 'RH', 'Directeur', 'Assistant', 'Assistante',
+                     'Responsable', 'Comptable', 'Informatique', 'stagiaire']
 
         # Create functions and departments
         try:
@@ -51,21 +53,24 @@ class OrmManager():
         In : login (str)
         """
         try:
-            login = self.session.query(self._User).filter(self._User.login == login).one()
+            login = self.session.query(self._User)\
+                .filter(self._User.login == login).one()
         except sqlalchemy.orm.exc.NoResultFound:
             return False
         return True
-    
+
     def get_department_from_name(self, name):
         """
         Return department object from name
         In : name of department(string)
         """
         try:
-            dep = self.session.query(self._Department).filter(self._Department.name == name).one()
+            dep = self.session.query(self._Department)\
+                .filter(self._Department.name == name).one()
             return dep
         except sqlalchemy.orm.exc.NoResultFound:
-            print("Department " +name+" was not found in base ! Please add it using command office add department "+name)
+            print("Department " + name + " was not found in base ! \
+                Please add it using command office add department " + name)
             self.session.rollback()
             return None
 
@@ -75,11 +80,13 @@ class OrmManager():
         In : name of function (string)
         """
         try:
-            func = self.session.query(self._Function).filter(self._Function.name == name).one()
+            func = self.session.query(self._Function)\
+                .filter(self._Function.name == name).one()
             return func
         except sqlalchemy.orm.exc.NoResultFound:
             self.session.rollback()
-            print("Function " +name+" was not found in base ! Please add it using command office add function "+name)
+            print("Function " + name + " was not found in base ! \
+                Please add it using command office add function "+name)
             return None
 
     def create_departments(self, departments):
@@ -89,7 +96,7 @@ class OrmManager():
         """
         try:
             for dep in departments:
-                tmp = self._Department(name = dep)
+                tmp = self._Department(name=dep)
                 self.session.add(tmp)
             self.session.commit()
         except:
@@ -102,36 +109,43 @@ class OrmManager():
         """
         try:
             for func in functions:
-                tmp = self._Function(name = func)
+                tmp = self._Function(name=func)
                 self.session.add(tmp)
             self.session.commit()
         except:
             self.session.rollback()
 
-    def create_user(self, login, passwd, surname, name, birthdate, function, department, email, oldname=None, mobile=None, phone=None):
+    def create_user(self, login, passwd, surname,
+                    name, birthdate, function,
+                    department, email, oldname=None,
+                    mobile=None, phone=None):
         """
         Create users
         In : all user infos (string)
         """
-       
+
         # Check if department and function exists
         dep = self.get_department_from_name(department)
         func = self.get_function_from_name(function)
 
         if dep is not None and func is not None:
             try:
-                user = self._User(login=login, passwd=passwd, surname=surname, name = name, birthdate=birthdate, email=email, function=func.name, department=dep.name, mobile=mobile, phone=phone, oldname=oldname)
+                user = self._User(login=login, passwd=passwd,
+                                  surname=surname, name=name,
+                                  birthdate=birthdate, email=email,
+                                  function=func.name, department=dep.name,
+                                  mobile=mobile, phone=phone, oldname=oldname)
                 self.session.add(user)
                 self.session.commit()
-                print("User "+ login+" successfully added !")
+                print("User " + login + " successfully added !")
             except sqlalchemy.exc.IntegrityError as e:
-                print("Something went wrong when adding this user in database.")
+                print("Something went wrong when adding this user.")
                 print(str(e))
                 self.session.rollback()
         else:
             print("User "+login+" wasn't created")
             self.session.rollback()
- 
+
     def delete_user(self, login):
         """
         Delete an user from login
@@ -139,13 +153,14 @@ class OrmManager():
         """
 
         try:
-            user = self.session.query(self._User).filter(self._User.login == login).one()
+            user = self.session.query(self._User)\
+                .filter(self._User.login == login).one()
             self.session.delete(user)
             self.session.commit()
             print("User "+login+" was deleted.")
         except sqlalchemy.orm.exc.NoResultFound:
             self.session.rollback()
-            print("Username " +login+" was not found in base !" )
+            print("Username " + login + " was not found in base !")
 
     def change_group(self, login, group):
         """
@@ -153,13 +168,14 @@ class OrmManager():
         In : login (string)
         """
         try:
-            user = self.session.query(self._User).filter(self._User.login == login).one()
+            user = self.session.query(self._User)\
+                .filter(self._User.login == login).one()
             user.department = group
             self.session.commit()
             print("Group of user "+login+" was updated.")
         except sqlalchemy.orm.exc.NoResultFound:
             self.session.rollback()
-            print("Username " +login+" was not found in base !" )
+            print("Username " + login + " was not found in base !")
 
     def change_surname(self, login, surname):
         """
@@ -167,13 +183,14 @@ class OrmManager():
         In : surname (string)
         """
         try:
-            user = self.session.query(self._User).filter(self._User.login == login).one()
+            user = self.session.query(self._User)\
+                .filter(self._User.login == login).one()
             user.surname = surname
             self.session.commit()
             print("Surname of user "+login+" was updated.")
         except sqlalchemy.orm.exc.NoResultFound:
             self.session.rollback()
-            print("Username " +login+" was not found in base !" )
+            print("Username " + login + " was not found in base !")
 
     class _Function(Base):
         """
