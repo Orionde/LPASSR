@@ -63,7 +63,7 @@ FX 830
 Attention : Python réattribue les indices dès qu'on fait une modification sur la liste. Si on supprime un élément, l'indice des éléments se trouvant après l'élément supprimé est modifié.
 
 ## Méthodes des listes
-#### Ajouter un élément à la fin:
+#### Ajouter un élément à la fin: append
 ```python
 >>> cpu0 = 'm3-7Y30'  # Une variable de type string
 >>> list_CPU = list()  # Ne pas oublier de déclarer la liste, on ne peut pas utiliser append sur une liste qu'on a pas définie !
@@ -73,7 +73,7 @@ Attention : Python réattribue les indices dès qu'on fait une modification sur 
 >>> list_CPU.append(cpu0)  # On ajoute une variable, obligatoirement définie en amont
 ```
 
-#### Retirer un élément :
+#### Retirer un élément : remove
 ```python
 >>> cpu0 = 'm3-7Y30'
 >>> list_CPU = ['Pentium G3460', 'i7-6700K', 5, cpu0]  # Initialisation de la liste
@@ -90,21 +90,21 @@ ValueError: list.remove(x): x not in list
 >>> print(list_CPU)
 ['m3-7Y30', 'Pentium G3460']  # En affichant la liste on voit bien que le nom de la variable cpu0 a été remplacé par son contenu 'm3-7Y30'. Les suppressions effectuées via la valeur de l'indice ont bien été effectuées.
 ```
-####  Insérer un élément à une position précise
+####  Insérer un élément à une position précise : insert
 ```python
 >>> list_jours = ["Lundi", "Mardi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 >>> list_jours.insert(2,"Mercredi") # Position puis indice
 >>> print(list_jours)
 ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 ```
-#### Etendre
+#### Etendre : extend
 ```python
 >>> list_jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]
 >>> list_jours.extend(["Samedi", "Dimanche"]) # Attention ! C'est bien une liste en paramètre de la méthode !
 >>> print(list_jours)
 ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 ```
-#### Enlever le dernier élément
+#### Enlever le dernier élément : pop
 ```python
 >>> list_jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 >>> dernier_jour = list_jours.pop()
@@ -113,7 +113,7 @@ ValueError: list.remove(x): x not in list
 >>> print(dernier_jour)
 Dimanche
 ```
-#### Trier
+#### Trier : sort
 Ne pas s'amuser à sort des listes mixes avec python, ou du moins pas sans savoir ce qu'on fait ;)
 ```python
 >>> list_jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
@@ -121,7 +121,7 @@ Ne pas s'amuser à sort des listes mixes avec python, ou du moins pas sans savoi
 >>> print(list_jours)
 ['Dimanche', 'Jeudi', 'Lundi', 'Mardi', 'Mercredi', 'Samedi', 'Vendredi'] # Trié par ordre alphabétique
 ```
-#### Trouver le minimum et le maximum
+#### Trouver le minimum et le maximum : min() / max()
 ```python
 >>> list_temp = [25, 30, 12, 22, 34]
 >>> print(min(list_temp))
@@ -129,14 +129,14 @@ Ne pas s'amuser à sort des listes mixes avec python, ou du moins pas sans savoi
 >>> print(max(list_temp))
 34
 ```
-#### Inverser l'ordre de la liste :
+#### Inverser l'ordre de la liste : reverse
 ```python
 >>> list_temp = ['a', 'b', 'c', 'd']
 >>> list_temp.reverse()
 >>> print(list_temp)
 ['d', 'c', 'b', 'a']
 ```
-### Concaténer
+### Concaténer : +
 Les listes ne sont pas modifiées
 ```python
 >>> L1 = [12, 15, 16, 11, 19, 17]
@@ -148,7 +148,7 @@ Les listes ne sont pas modifiées
 >>> print(L2)
 [13, 20, 32]
 ```
-### Connaitre l'indice d'une valeur
+### Connaitre l'indice d'une valeur : index
 La méthode index permet de retourner l'indice d'un élément de la liste :
 ```python
 list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
