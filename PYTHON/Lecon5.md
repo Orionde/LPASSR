@@ -151,13 +151,13 @@ Les listes ne sont pas modifiées
 #### Connaitre l'indice d'une valeur : index
 La méthode index permet de retourner l'indice d'un élément de la liste :
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 >>> print list_CPU.index('m3-7Y30')
 2
 ```
 #### Connaitre la taille de la liste : len()
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 >>> print(len(list_CPU.index))
 5
 ```
