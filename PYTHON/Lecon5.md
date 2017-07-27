@@ -37,7 +37,7 @@ Si on ne sait pas par avance ce que va contenir la liste mais qu'on sait qu'on v
 ## Désigner un élément d'une liste :
 Pour désigner un élément, on utilise obligatoirement son indice. Les indice sont numérotés à partir de 0 !
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 # par indice
 >>> print(list_CPU[0])  # On print le premier élément de la liste
 i7-6700K
@@ -152,14 +152,19 @@ Les listes ne sont pas modifiées
 La méthode index permet de retourner l'indice d'un élément de la liste :
 ```python
 list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
->>> print list_CPU.index('m3-7Y30'):
+>>> print list_CPU.index('m3-7Y30')
 2
 ```
-
+#### Connaitre la taille de la liste : len()
+```python
+list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> print(len(list_CPU.index))
+5
+```
 ## Cas d'utilisation
 #### Afficher une liste via une boucle for
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 >>> for l in list_CPU:
 >>>     print(l)
 i7-6700K
@@ -172,7 +177,7 @@ FX 4300
 ```
 #### Transformer un fichier en liste
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 >>> with open('CPU_list', 'r') as f_cpu:
 >>>     for l in list_CPU:
 >>>         f_cpu.write(l)
@@ -193,14 +198,14 @@ list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 #### Vérifier si une liste contient un élément
 Le mot clé in. Python ne se complique pas la vie ;)
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 >>> if 'i7-6700K' in list_CPU:
 >>>   print("Trouvé !")
 Trouvé !  # Affiche trouvé car l'élément est dans la liste
 ```
 On peut aussi faire comme ça, mais c'est moins moins joli.
 ```python
-list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
+>>> list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
 >>> for i in list_CPU:
 >>>     if i == 'i7-6700K':
 >>>         print("Trouvé !")
