@@ -136,7 +136,7 @@ Ne pas s'amuser à sort des listes mixes avec python, ou du moins pas sans savoi
 >>> print(list_temp)
 ['d', 'c', 'b', 'a']
 ```
-### Concaténer : +
+#### Concaténer : +
 Les listes ne sont pas modifiées
 ```python
 >>> L1 = [12, 15, 16, 11, 19, 17]
@@ -148,7 +148,7 @@ Les listes ne sont pas modifiées
 >>> print(L2)
 [13, 20, 32]
 ```
-### Connaitre l'indice d'une valeur : index
+#### Connaitre l'indice d'une valeur : index
 La méthode index permet de retourner l'indice d'un élément de la liste :
 ```python
 list_CPU = ['i7-6700K', 'Xeon-E5506', 'm3-7Y30', 'FX 8300', 'FX 4300']
